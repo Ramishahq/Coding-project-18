@@ -22,12 +22,12 @@ const ScatterChart = ({ data }) => {
       y: {
         beginAtZero: true,
         grid: {
-          color: '#444', // Darker grid lines
+          color: '#444', 
         },
       },
       x: {
         grid: {
-          color: '#444', // Darker grid lines
+          color: '#444', 
         },
       },
     },

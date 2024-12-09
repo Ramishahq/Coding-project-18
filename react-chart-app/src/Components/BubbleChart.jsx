@@ -9,9 +9,9 @@ const BubbleChart = ({ data }) => {
         data: data.expenses.map((expense, index) => ({
           x: expense,
           y: data.profits[index],
-          r: data.sales[index] / 10, // Adjust size scale as needed
+          r: data.sales[index] / 10, 
         })),
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        backgroundColor: 'rgba(54, 162, 235, 0.5)',
         borderColor: 'rgba(54, 162, 235, 1)',
         borderWidth: 1,
       },
@@ -23,12 +23,12 @@ const BubbleChart = ({ data }) => {
       y: {
         beginAtZero: true,
         grid: {
-          color: '#444', // Darker grid lines
+          color: '#666', 
         },
       },
       x: {
         grid: {
-          color: '#444', // Darker grid lines
+          color: '#666', 
         },
       },
     },

@@ -9,7 +9,7 @@ const LineChart = ({ data }) => {
         label: 'Monthly Profits',
         data: data.profits,
         backgroundColor: 'rgba(153, 102, 255, 0.2)',
-        borderColor: 'rgba(153, 102, 255, 1)',
+        borderColor: 'rgba(153, 102, 255, 20)',
         borderWidth: 1,
       },
     ],
@@ -20,12 +20,12 @@ const LineChart = ({ data }) => {
       y: {
         beginAtZero: true,
         grid: {
-          color: '#444', // Darker grid lines
+          color: '#444', 
         },
       },
       x: {
         grid: {
-          color: '#444', // Darker grid lines
+          color: '#444', 
         },
       },
     },
